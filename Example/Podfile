@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ColorfulUI_Example' do
+  pod 'ColorfulUI', :path => '../'
+
+  target 'ColorfulUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
